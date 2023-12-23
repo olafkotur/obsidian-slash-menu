@@ -4,11 +4,11 @@
   "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
   "main": "main.js",
   "scripts": {
-    "start": "node esbuild.config.mjs",
+    "start": "node esbuild.config.mjs & nodemon -e js --watch build --exec 'yarn copy-build'",
     "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
     "version": "node version-bump.mjs && git add manifest.json versions.json",
     "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" \"!./build/**\" \"!./node_modules/**\"",
-    "copy-build": "sh copy-build.sh"
+    "copy-build": "sh copy-build.sh ~/Documents/obsidian/olafkotur"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "@typescript-eslint/parser": "5.29.0",
     "builtin-modules": "3.3.0",
     "esbuild": "0.17.3",
+    "nodemon": "^3.0.2",
     "obsidian": "latest",
     "prettier": "^3.1.1",
     "prettier-plugin-organize-imports": "^3.2.4",

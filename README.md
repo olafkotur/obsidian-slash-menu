@@ -24,9 +24,10 @@ To get this project up and running, follow these steps:
    ```bash
    yarn start
    ```
-3. To automatically move `main.js`, `manifest.json`, and `styles.css` into the plugin folder within your Obsidian vault, run:
+   Note that running this command will automatically copy the plugin into your obsidian plugin directory
+3. To move `main.js`, `manifest.json`, and `styles.css` into the plugin folder within your Obsidian vault, run:
    ```bash
-   yarn copy-build <your-obsidian-vault-directory>
+   yarn copy-build
    ```
-   Replace `<your-obsidian-vault-directory>` with the directory of your Obsidian vault.
+   Replace the default vault directory with yours within `package.json` e.g. `~/Documents/obsidian/your-vault`.
    The name of the plugin is determined by the `id` within `manifest.json`.
