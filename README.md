@@ -1,16 +1,6 @@
-# Obsidian Plugin Template
+# Obsidian Slash Menu
 
-This fork of the original [Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin). This repository serves as a starting point for creating your own Obsidian plugins. For comprehensive documentation and guidance, please refer to the original repository provided by the author.
-
-## Template Features
-
-This sample plugin demonstrates some of the basic functionalities that the Obsidian plugin API can offer:
-
-- Adds a ribbon icon, which shows a Notice when clicked.
-- Adds a command "Open Sample Modal" which opens a Modal.
-- Adds a plugin setting tab to the settings page.
-- Registers a global click event and outputs 'click' to the console.
-- Registers a global interval which logs 'setInterval' to the console.
+This project was created using the template from [olafkotur/obsidian-plugin-template](https://github.com/olafkotur/obsidian-plugin-template) repo.
 
 ## Running the Project
 

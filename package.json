@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-sample-plugin",
+  "name": "obsidian-slash-menu",
   "version": "1.0.0",
-  "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+  "description": "TBC",
   "main": "main.js",
   "scripts": {
     "start": "node esbuild.config.mjs & nodemon -e js --watch build --exec 'yarn copy-build'",
@@ -11,7 +11,7 @@
     "copy-build": "sh copy-build.sh ~/Documents/obsidian/olafkotur"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olaf Kotur",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.6",
