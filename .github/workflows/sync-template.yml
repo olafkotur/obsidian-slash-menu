@@ -13,6 +13,6 @@ jobs:
       - name: actions-template-sync
         uses: AndreasAugustin/actions-template-sync@v1.1.3
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: olafkotur/obsidian-plugin-template
           upstream_branch: main
