@@ -1,11 +1,11 @@
 {
-	"id": "plugin-template",
-	"name": "Plugin Template",
-	"version": "1.0.0",
-	"minAppVersion": "1.4.16",
-	"description": "A template for Obsidian plugins",
-	"author": "Olaf Kotur",
-	"authorUrl": "https://github.com/olafkotur",
-	"fundingUrl": "https://github.com/sponsors/olafkotur",
-	"isDesktopOnly": false
+  "id": "plugin-template",
+  "name": "Plugin Template",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.16",
+  "description": "A template for creating new plugins.",
+  "author": "Olaf Kotur",
+  "authorUrl": "https://github.com/olafkotur",
+  "fundingUrl": "https://github.com/sponsors/olafkotur",
+  "isDesktopOnly": false
 }

@@ -4,10 +4,11 @@
   "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
   "main": "main.js",
   "scripts": {
-    "dev": "node esbuild.config.mjs",
+    "start": "node esbuild.config.mjs",
     "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
     "version": "node version-bump.mjs && git add manifest.json versions.json",
-    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" \"!./build/**\" \"!./node_modules/**\""
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" \"!./build/**\" \"!./node_modules/**\"",
+    "copy-build": "sh copy-build.sh"
   },
   "keywords": [],
   "author": "",
